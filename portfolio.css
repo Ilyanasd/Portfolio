@@ -4,8 +4,8 @@
 }
 .slider{
     width: 100%;
-    min-height: 80vh;
-    aspect-ratio:16/8;
+    /* min-height: 80vh;
+    aspect-ratio:16/8; */
     /* background-color: black; */
     position: relative;
 }
@@ -14,6 +14,7 @@
     height: 90%;
     object-fit: cover;
     filter: brightness(50%);
+    border-radius: 30px;
 }
 .slider-content{
     position: absolute;
@@ -27,7 +28,7 @@ h1{
 }
 h2{
     font-size: 3rem;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 p{
     font-size:1.5rem;
@@ -38,7 +39,7 @@ p{
     font-size: 2rem;
 }
 .section{
-    padding: 10px 0;
+    padding: 25px 0;
 }
 .boxed{
     max-width: 1200px;
@@ -50,6 +51,10 @@ p{
 .dark{
     background:#000;
     color: white;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+
 }
 .w40{
     width: 40%;
@@ -81,6 +86,8 @@ object-fit: contain;
 }
 .gaplogo{
     gap:30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .w32{
     width: 32%;;
