@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="mediaquery.css">
+
+</head>
+<body>
+<nav id="desktop-nav">
+    <div class="logo">Ilyana Soued</div>
+    <div>
+        <ul class="nav-links">
+        <li><a href="#propos">A propos</a></li>   
+        <li><a href="#experience">Compétences</a></li> 
+        <li><a href="#project">Project</a></li> 
+        <li><a href="#contact">Contact</a></li> 
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo">Ilyana Soued</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+    </div>
+    <div class="menu-links">
+            <li><a href="#propos" onclick="toggleMenu()">A propos</a></li>   
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li> 
+            <li><a href="#project" onclick="toggleMenu()">Project</a></li> 
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> 
+    </div>
+</div>
+</nav>
+<section id="profil">
+    <div class="section__pic-container">
+        <img class="images" src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/image-profil2.jpeg" alt="my picture">
+    </div>
+    <div class="sexion__text">
+        <p class=""section__text__p1>Hello, I'm</p>
+        <h1 class="title">Ilyana Soued</h1>
+        <p class="section__text__p2">Fullstrack Developer</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('img/cvEPITECH.pdf')">Download CV</button>
+            <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact info</button>
+        </div>
+        <div class="socials-container">
+            <img src="img/linkedin.png" alt="Profil linkedin" class="icon" onclick="location.href='https://linkedin.com/'">
+            <img src="img/github.png" alt="Profil github" class="icon" onclick="location.href='https://github.com/'">
+        </div>
+    </div>
+    <!-- <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/fleches.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#project'"> -->
+</section>
+<section id="about">
+    <!-- <p class="section__text__p1">Apprendre a me connaitre</p> -->
+    <div class="all-about">
+    <h1 class="title">A propos de moi</h1>
+    <div class="section-container">
+       <div class="section__pic-container">
+          <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/image-profil2.jpeg" alt="icone experience" class="icon-profil">
+       </div>
+       <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+           <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/diplome.png" alt="experience icon" class="icon">
+           <h3>Formation actuel: Web@cademie by Epitech</h3>
+          <p>2+ years <br /> Fullstrack Development</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ab in, dignissimos inventore similique necessitatibus praesentium eveniet nam cumque eos quaerat? Modi, dolore animi! Earum nostrum facere quam soluta placeat?</p>
+          </div>
+       </div>
+    </div>
+    <!-- <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/fleches.png" alt="arrow icon" class="icon arrow" onclick="location.href='./experience'"> -->
+  </div>
+</section> 
+<section id="experience">
+<h1 class="title">Compétences</h1>
+<div class="experience-details-container">
+  <div class="details-container">
+    <h2 class="experience-sub-title">Fullstrack Development</h2>
+      <div class="article-container">
+        <article>
+        <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/valid.png" alt="icone valid" class="icon">
+      <h3>HTML</h3>
+      <!-- <p>Experience</p> -->
+       </article>
+
+       <article>
+        <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/valid.png" alt="icone valid" class="icon">
+      <h3>CSS</h3>
+      <!-- <p>Experience</p> -->
+       </article>
+
+       <article>
+        <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/valid.png" alt="icone valid" class="icon">
+      <h3>JS</h3>
+      <!-- <p>Experience</p> -->
+       </article>
+
+       <article>
+        <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/valid.png" alt="icone valid" class="icon">
+      <h3>PHP</h3>
+      <!-- <p>Experience</p> -->
+       </article>
+
+       <article>
+        <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/valid.png" alt="icone valid" class="icon">
+      <h3>MySQL</h3>
+      <!-- <p>Experience</p> -->
+       </article>
+       </div>
+      <!-- <div class="gaplogo">
+        <div class="fonctionalité">
+          <img src="img/html.png" class="logo">
+          <h3>HTML</h3>
+        </div>
+        <div class="fonctionalité">
+            <img src="img/css.png" class="logo">
+            <h3>CSS</h3>
+          </div>
+          <div class="fonctionalité">
+            <img src="img/js.png" class="logo">
+            <h3>JS</h3>
+          </div>
+          <div class="fonctionalité">
+            <img src="img/php.png" class="logo">
+            <h3>PHP</h3>
+          </div>
+          <div class="fonctionalité">
+            <img src="img/mysql.png" class="logo">
+            <h3>MySQL</h3>
+          </div>
+    </div> -->
+  </div>
+</div>
+<!-- <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/fleches.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#project'"> -->
+</section>
+<section id="project">
+    
+<h1 class="title">Projets</h1>
+<div class="experience-details-container">
+   <div class="details-container color-container">
+      <div class="article-container">
+         <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/twitter.png" alt="projet twitter" class="project-img">
+      </div>
+      <h2 class="experience-sub-title project-title">Projet twitter</h2>
+      <div class="btn-container">
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/EpitechWebAcademiePromo2025/W-WEB-090-PAR-1-1-academie-syphax.haddou'">Github</button>
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/EpitechWebAcademiePromo2025/W-WEB-090-PAR-1-1-academie-syphax.haddou'">Live demo</button>
+    </div>
+    </div>
+    <div class="details-container color-container">
+      <div class="article-container">
+         <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/puissance4.png" alt="projet puissance 4" class="project-img">
+      </div>
+      <h2 class="experience-sub-title project-title">Projet Puissance 4</h2>
+      <div class="btn-container">
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/EpitechWebAcademiePromo2025/W-JSC-501-PAR-1-1-puissance4-ilyana.soued'">Github</button>
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/EpitechWebAcademiePromo2025/W-JSC-501-PAR-1-1-puissance4-ilyana.soued'">Live demo</button>
+    </div>
+    </div>
+
+    <div class="details-container color-container">
+      <div class="article-container">
+         <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/battleship.png" alt="projet battleship" class="project-img">
+      </div>
+      <h2 class="experience-sub-title project-title">Projet Battleship</h2>
+      <div class="btn-container">
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/EpitechWebAcademiePromo2025/W-JSC-501-PAR-1-1-battleship-max.chen'">Github</button>
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/EpitechWebAcademiePromo2025/W-JSC-501-PAR-1-1-battleship-max.chen'">Live demo</button>
+    </div>
+    </div>
+
+</div>
+
+
+</section>
+<section id="contact">
+<h1 class="title">Contact</h1>
+<div class="contact-info-upper-container">
+   <div class="contact-info-container">
+     <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/email.png" alt="email" class="icon contact-icon">
+     <p><a href="mailto:ilyana.soued@hotmail.com">Ilyana.soued@hotmail.com</a></p>
+    </div>
+    <div class="contact-info-container">
+      <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/linkedin.png" alt="linkedin" class="icon contact-icon">
+      <p><a href="https://www.linkedin.com">Linkedin</a></p>
+    </div>
+    <div class="contact-info-container">
+      
+      <p class="number">06 41 32 69 84</p>
+    </div>
+</div>
+</section>
+<script src="portfolio.js"></script>
+</body>
+</html>
