@@ -20,7 +20,7 @@
     </div>
 </nav>
 <nav id="hamburger-nav">
-    <div class="logo">Ilyana Soued</div>
+    <div class="logo">Mon Portfolio</div>
     <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
     <span></span>
@@ -29,7 +29,7 @@
     </div>
     <div class="menu-links">
             <li><a href="#propos" onclick="toggleMenu()">A propos</a></li>   
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li> 
+            <li><a href="#experience" onclick="toggleMenu()">Compétences</a></li> 
             <li><a href="#project" onclick="toggleMenu()">Project</a></li> 
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> 
     </div>
@@ -40,17 +40,20 @@
         <img class="images" src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/image-profil2.jpeg" alt="my picture">
     </div>
     <div class="sexion__text">
-        <p class=""section__text__p1>Hello, I'm</p>
+        <!-- <p class=""section__text__p1>Hello, I'm</p> -->
         <h1 class="title">Ilyana Soued</h1>
-        <p class="section__text__p2">Fullstrack Developer</p>
+        <h2 class="section__text__p2">Fullstack Developpeur </h2>
+        <h2><p class="section__text__p2">Recherche allternance</p></h2>
+        <h2><p class="section__text__p2">Ile-de-France / Paris</p></h2>
+        <h2><p class="section__text__p2">20ans</p></h2>
         <div class="btn-container">
             <button class="btn btn-color-2" onclick="window.open('img/cvEPITECH.pdf')">Download CV</button>
             <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact info</button>
         </div>
-        <div class="socials-container">
+        <!-- <div class="socials-container">
             <img src="img/linkedin.png" alt="Profil linkedin" class="icon" onclick="location.href='https://linkedin.com/'">
             <img src="img/github.png" alt="Profil github" class="icon" onclick="location.href='https://github.com/'">
-        </div>
+        </div> -->
     </div>
     <!-- <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/fleches.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#project'"> -->
 </section>
@@ -189,12 +192,32 @@
     </div>
     <div class="contact-info-container">
       <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/linkedin.png" alt="linkedin" class="icon contact-icon">
-      <p><a href="https://www.linkedin.com">Linkedin</a></p>
+      <p><a href="https://www.linkedin.com/in/ilyana-soued-5271b6304/">Linkedin</a></p>
+    </div>
+    <div class="contact-info-container">
+      <img src="img/github.png" alt="Profil github" class="icon" onclick="location.href='https://github.com/'" alt="github" class="icon contact-icon">
+      <p><a href="https://github.com/EpitechWebAcademiePromo2025">Github</a></p>
     </div>
     <div class="contact-info-container">
       
       <p class="number">06 41 32 69 84</p>
     </div>
+</div>
+<div class="contact-info-upper-container">
+  <form action="https://submit-form.com/4xsFRyRwg">
+    <label for="name">nom:</label>
+    <input type="text" id="name" name="name" placeholder="Name" required="" />
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Email" required="" />
+    <label for="message">Message:</label>
+    <textarea
+      id="message"
+      name="message"
+      placeholder="Message"
+      required=""
+    ></textarea>
+    <button type="submit">Send</button>
+  </form>
 </div>
 </section>
 <script src="portfolio.js"></script>

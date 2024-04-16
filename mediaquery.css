@@ -1,8 +1,19 @@
+@media screen and (max-width: 2000px){
+    
+    #profil{
+        height: 85vh;
+        margin-top: 14vh;
+        margin-bottom: -13rem;
+    }
+    .about-containers{
+        flex-wrap: wrap;
+    }
+}
 @media screen and (max-width: 1400px){
     
     #profil{
-        height: 83vh;
-        margin-bottom: 6rem;
+        height: 85vh;
+        margin-bottom: -20rem;
     }
     .about-containers{
         flex-wrap: wrap;
@@ -98,5 +109,70 @@
     }
     .text-container{
         text-align: justify;
+    }
+}
+
+
+@media screen and (max-width: 350px){
+    #contact,
+    .footer{
+    height: 40vh;
+    }
+
+    #profile{
+        height: 83vh;
+        margin-bottom: 2rem;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-container,
+    .btn-container{
+        flex-wrap: wrap;
+    }
+    .contact-info-container{
+        margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+        font-size: 1rem;
+    }
+    .experience-info-container{
+        font-size: 1.25rem;
+    }
+    /* .esperience-details-container{
+        display: block;
+    } */
+    .logo{
+        font-size: 1.5rem;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .section__pic-container{
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+    .section__text__p2{
+        font-size: 1.25rem;
+    }
+    .title{
+        font-size:2rem ;
+    }
+    .text-container{
+        text-align: justify;
+    }
+
+    .experience-details-container{
+    display: none;
+    background-color: brown;
     }
 }
