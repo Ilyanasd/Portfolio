@@ -3,9 +3,11 @@
 <head>
   <meta charset="utf-8">
   <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="portfolio.css">
   <link rel="stylesheet" href="mediaquery.css">
-
+  <script src="https://kit.fontawesome.com/d845036993.js" crossorigin="anonymous"></script>
+  
 </head>
 <body>
 <nav id="desktop-nav">
@@ -41,11 +43,11 @@
     </div>
     <div class="sexion__text">
         <!-- <p class=""section__text__p1>Hello, I'm</p> -->
-        <h1 class="title">Ilyana Soued</h1>
+        <h1 class="titleprenom">Ilyana Soued</h1>
         <h2 class="section__text__p2">Fullstack Developpeur </h2>
-        <h2><p class="section__text__p2">Recherche allternance</p></h2>
+        <h2><p class="section__text__p2">Recherche alternance</p></h2>
         <h2><p class="section__text__p2">Ile-de-France / Paris</p></h2>
-        <h2><p class="section__text__p2">20ans</p></h2>
+       
         <div class="btn-container">
             <button class="btn btn-color-2" onclick="window.open('img/cvEPITECH.pdf')">Download CV</button>
             <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact info</button>
@@ -62,30 +64,44 @@
     <div class="all-about">
     <h1 class="title">A propos de moi</h1>
     <div class="section-container">
-       <div class="section__pic-container">
+      <div>
+       <!-- <div class="section__pic-container">
           <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/image-profil2.jpeg" alt="icone experience" class="icon-profil">
-       </div>
+       </div> -->
        <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
-           <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/diplome.png" alt="experience icon" class="icon">
-           <h3>Formation actuel: Web@cademie by Epitech</h3>
-          <p>2+ years <br /> Fullstrack Development</p>
+           <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/fleur.png" alt="experience icon" class="icon">
+           <h3>Informations :</h3>
+      <p>Ilyana <br /> 20ans <br /> Ile-de-France</p>
             </div>
           </div>
           <div class="text-container">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ab in, dignissimos inventore similique necessitatibus praesentium eveniet nam cumque eos quaerat? Modi, dolore animi! Earum nostrum facere quam soluta placeat?</p>
           </div>
        </div>
+    
+</div>
+<div class="about-details-container">
+  <div class="about-containers">
+    <div class="details-container">
+   <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/diplome.png" alt="experience icon" class="icon">
+   <h3>Formation actuel (2023/2025): Web@cademie by Epitech</h3>
+  <p>2+ years <br /> Fullstack Development</p>
     </div>
+  </div>
+  <div class="text-container">
+  </div>
+</div>
+</div>
     <!-- <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/fleches.png" alt="arrow icon" class="icon arrow" onclick="location.href='./experience'"> -->
+  </div>
   </div>
 </section> 
 <section id="experience">
 <h1 class="title">Compétences</h1>
 <div class="experience-details-container">
   <div class="details-container">
-    <h2 class="experience-sub-title">Fullstrack Development</h2>
+    <h2 class="experience-sub-title">Fullstack Development</h2>
       <div class="article-container">
         <article>
         <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/valid.png" alt="icone valid" class="icon">
@@ -187,7 +203,7 @@
 <h1 class="title">Contact</h1>
 <div class="contact-info-upper-container">
    <div class="contact-info-container">
-     <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/email.png" alt="email" class="icon contact-icon">
+     <img src="/home/ilyana/W-WEB-502-PAR-2-1-Portfolio-ilyana.soued/img/email.png" alt="email" class="icon contact-iconemail">
      <p><a href="mailto:ilyana.soued@hotmail.com">Ilyana.soued@hotmail.com</a></p>
     </div>
     <div class="contact-info-container">
@@ -205,7 +221,7 @@
 </div>
 <div class="contact-info-upper-container">
   <form action="https://submit-form.com/4xsFRyRwg">
-    <label for="name">nom:</label>
+    <label for="name">Nom:</label>
     <input type="text" id="name" name="name" placeholder="Name" required="" />
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" placeholder="Email" required="" />
